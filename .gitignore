@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Robot Framework - relatórios e resultados
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Configurações locais do editor
+.vscode/
+.idea/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
